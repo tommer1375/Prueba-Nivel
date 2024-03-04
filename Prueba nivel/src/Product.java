@@ -9,7 +9,7 @@ public class Product {
     protected Date datepurchase;
     protected  double discount;
 
-    public Product ( String name, String brand, double price, int stock, Date datepruchase, double discount) {
+    public Product ( String name, String brand, double price, int stock, Date datepurchase, double discount) {
         code = contadorCodigo++;
         this.name = name;
         this.brand = brand;
