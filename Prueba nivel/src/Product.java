@@ -52,7 +52,7 @@ public class Product {
         newPrice -= discount;
     }
     public String toString() {
-        return "Código: " + code + ", Nombre: " + name + ", Marca: " + brand + ", Precio: " + price;+ " Stock "+stock+ " Fecha compra " +datepurchase+" Descuento "+discount;
+        return "Código: " + code + ", Nombre: " + name + ", Marca: " + brand + ", Precio: " + price+ " Stock "+stock+ " Fecha compra " +datepurchase+" Descuento "+discount;
     }
 }
 
