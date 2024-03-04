@@ -6,7 +6,7 @@ public class CorteIrlandes {
     private static Scanner scanner = new Scanner(System.in);
 
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
         ArrayList<Product> inventory = new ArrayList<Product>();
         menuProgram(inventory);
