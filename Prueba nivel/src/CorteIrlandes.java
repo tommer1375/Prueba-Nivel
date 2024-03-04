@@ -13,7 +13,7 @@ public class CorteIrlandes {
     }
 
 
-    public void menuProgram(ArrayList<Product> inventory) {
+    public static void menuProgram(ArrayList<Product> inventory) {
         int option;
         do {
             System.out.println("----- Menú Principal -----");
