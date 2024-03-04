@@ -35,7 +35,7 @@ public class Product {
         return stock;
     }
 
-    public Date getDatepruchase() {
+    public Date getDatepurchase() {
         return datepurchase;
     }
 
